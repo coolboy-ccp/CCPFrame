@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CCPFrame"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "View frame, main screen frame."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-          view frame, main screen frame
+          extension properties of view frame, andfproperties of main screen frame
                    DESC
 
   spec.homepage     = "http://EXAMPLE/CCPFrame"
@@ -53,7 +53,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "ccp" => "" }
+  spec.author             = { 'cool_ccp' => 'chuchengpeng0119@163.com' }
+  spec.homepage         = 'https://github.com/coolboy-ccp/CCPFrame'
   # Or just: spec.author    = "clobotics_ccp"
   # spec.authors            = { "clobotics_ccp" => "" }
   # spec.social_media_url   = "https://twitter.com/clobotics_ccp"
@@ -81,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/CCPFrame.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/coolboy-ccp/CCPFrame.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
